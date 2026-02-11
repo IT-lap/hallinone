@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form1{
+            margin-top: 100px;
+            margin-left: 200px;
+            color:black;
+            width:300px;
+        background-color:aliceblue;
+        height: 150px;
+        padding:20px;
+        border-radius: 10px;
+       
+        }
+        body{
+            background-color:rgb(227, 239, 249);
+        }
+    </style>
+</head>
+<body>
+    <section class="form1">
+        <form name="validation">
+            please enter your first name:<br>
+            <input type="text" name="firstname" id="firstname"><br>
+            please enter your age: <br>
+            <input type="text" name="age"><br>
+            add your place: <br>
+            <textarea name="textarea">enter your address here:</textarea>
+            <br>
+            <button onclick="confirmchoice()">click here</button>
+            
+        </form>
+    </section>
+    <script>
+    function confirmchoice(){
+     confirm("PRESS TO CONFIRM")
+        }  
+    </script>
+
+</body>
+</html>

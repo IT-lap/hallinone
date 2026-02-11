@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<img onmouseover="makebigger(this)" onmouseout="normalimage(this)" src="../images/img_1.jpg" alt="صورة غولف" height="200px" width="200px">
+</body>
+<script>
+    function makebigger(x){
+        x.style.height="300px";
+     
+    }
+    function normalimage(x){
+        x.style.height="200px";
+        x.style.width="200px";
+    }
+</script>
+</html>

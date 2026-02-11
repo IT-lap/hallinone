@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function disableComboBox(){
+            document.getElementById('selectFish').disabled=true;
+        }
+         function enableComboBox(){
+            document.getElementById('selectFish').disabled=false;
+        }
+    </script>
+</head>
+<body>
+  <form>
+    <select id="selectFish">
+        <option value="1">shellfish</option>
+        <option value="2">monkfish</option>
+        <option value="3">skate</option>
+        <option value="4">prawns</option>
+    </select>
+    <input type="button" onclick="disableComboBox()" value="disablelist">
+    <input type="button" onclick="enableComboBox()" value="enablelist">
+  </form>  
+</body>
+</html>
